@@ -44,7 +44,8 @@ variance, producing highly skewed results:
 The principal components are linear combinations of the standardized original variables
 (X1–X13 correspond to `Call_Failure` through `Customer_Value`):
 
-![Eigenvector Formulas](images/02_eigenvector_formulas.png)
+<img width="765" height="327" alt="02_eigenvector_formulas" src="https://github.com/user-attachments/assets/edc6f192-29cb-45ac-956a-e5ab8d8fb79e" />
+
 
 ```
 PC1 = 0.317·X1 − 0.072·X2 + 0.064·X3 + 0.317·X4 + 0.434·X5 + 0.441·X6 + 0.186·X7
@@ -63,11 +64,13 @@ Points are colored by actual `Churn` status to assess spatial separability.
 
 **2D PCA Scatter Plot** (PC1 vs. PC2):
 
-![2D PCA Scatter Plot](images/01_2d_pca_scatter.png)
+<img width="1205" height="623" alt="01_2d_pca_scatter" src="https://github.com/user-attachments/assets/576d16eb-62c8-45b1-bc52-9f0613afd511" />
+
 
 **3D PCA Scatter Plot** (PC1, PC2, PC3):
 
-![3D PCA Scatter Plot](images/03_3d_pca_scatter.png)
+<img width="936" height="847" alt="03_3d_pca_scatter" src="https://github.com/user-attachments/assets/af5941ba-c0e8-4faf-b323-a4f1e3b29ca9" />
+
 
 ## 5. Conclusion and Discussion
 
